@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" 
+content="text/html; charset=UTF-8" />
+<meta name="author" content="Tiffany Tse, Vivian Wang, and Jenny Yang" />
+<meta content=" Breaking Bad COGS187A Final Project" name="description"/>
+<link rel="icon"   href="img/Favicon.ico">
+<!--css files-->
+<link type="text/css" rel="stylesheet" href="css/tabcontent.css" />
+<link type="text/css" rel="stylesheet" href="css/foundation.min.css" />
+<link type="text/css" rel="stylesheet" href="css/normalize.css" />
+<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+<link type="text/css" rel="stylesheet" href="css/menu_source/styles.css" />
+<!--<link type="text/css" rel="stylesheet" href="css/tabcontent.css" /> --> 
+
+<!-- google fonts-->
+<link href='http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
+<!--js files-->
+<script type="text/javascript" src="js/tabcontent.js"></script>
+<script type="text/javascript" src="js/foundation.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+<!--Sticky Navgiation-->
+<script type="text/javascript">
+$(document).ready(function() {  
+var stickyNavTop = $('.navbar').offset().top;  
+	  
+	var stickyNav = function(){  
+	var scrollTop = $(window).scrollTop();  
+		   
+	if (scrollTop > stickyNavTop) {   
+			$('.navbar').addClass('sticky');  
+		} else {  
+			$('.navbar').removeClass('sticky');   
+		}  
+	};  
+  
+	stickyNav();  
+	  
+	$(window).scroll(function() {  
+		stickyNav();  
+	});  
+	});  
+
+</script>
+
+
+<title>Breaking Bad</title>
+</head>
+
+<body>
+<div class="header">
+	<div class="quicklinks">
+    <ul>
+   	<li> <a href="#"> Hello </a></li>
+  <li>  <a href="#"> Hello</a> </li>
+  </ul>
+    </div>
+	<div class="logo">
+	<a href="#index"> <img src="img/Breaking_Bad_logo.png"/></a>
+    </div>
+	<div class="navbar">
+    <div class="row">
+	<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li><a href='#'><span>Seasons and Episodes</span></a></li>
+   <li ><a href='#'><span>Media</span></a></li>
+   <li ><a href='#'><span>About</span></a></li>
+   <li class='last'><a href='#'><span>Community</span></a></li>
+
+  
+</ul>
+
+
+</div> <!--end of cssmeu-->
+	</div> <!--end of row-->
+    </div><!--end of navbar-->
+
+</div> <!--end of header-->
+<div class="container"> 
+	<div class="pageheader">
+		<h1 class="pagetitle"> Breaking Bad Homepage</h1>
+	</div>
+    
+	<div class="content1">
+    
+    </div> <!--end of content1-->
+</div> <!---./end of container -->
+
+    <!--Backstretch background-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script>
+        $.backstretch("img/Breaking-Bad-Walter-White.png");
+    </script>
+
+<!-- foundation js files-->
+<script src="/js/vendor/jquery.js"></script> 
+<script src="/js/vendor/fastclick.js"></script>
+</body>
+</html>
