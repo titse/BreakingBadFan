@@ -11,7 +11,7 @@
 }
 
 body {
-		min-height: 1500px;
+		min-height: 1100px;
 
 	
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .logo{
-	margin-left:50px;	
+	margin-left:5px;	
 }
 
 @import url(http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic);
@@ -84,14 +84,42 @@ body {
 	
 		
 }
-.imageSlider{
+.line{
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
 
+}
+
+	
+
+
+/* homepage image slider*/
+.imageSlider{
+    padding-left: 35px;
+	padding-right: 35px;
 	height:300px;
-	width:1000px;	
+	width:975px;	
 }
 
 /* footer */
 footer{
-	background-color: #C4E9FE;
+	background-color: #5E90A4;
 	display:block;	
+    height: 100px;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	position: relative;
+	bottom: 0;
+
+}
+.footerItems{
+	font-size:14px;
+	font:Verdana, Geneva, sans-serif;
+}
+.credits{
+	font-size:16px;
+	font-weight:800;
+		
 }

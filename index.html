@@ -10,6 +10,8 @@ content="text/html; charset=UTF-8" />
 <link type="text/css" rel="stylesheet" href="css/foundation.min.css" />
 <link type="text/css" rel="stylesheet" href="css/normalize.css" />
 <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+<link type="text/css" rel="stylesheet" href="css/container.css" />
+<link type="text/css" rel="stylesheet" href="css/boilerplate.css" />
 <link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-styles.css" />
 
 <!---slider part--->
@@ -21,13 +23,11 @@ content="text/html; charset=UTF-8" />
 <!-- google fonts-->
 <link href='http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic' rel='stylesheet' type='text/css'>
 <!--js files-->
-<script src="/js/vendor/modernizr.js"></script>
-<script type="text/javascript" src="js/foundation.min.js"></script>
-<script type="text/javascript" src="js/foundation/foundation.orbit.js"></script>
+<script src="js/vendor/modernizr.js"></script>
+<script type="text/javascript" src="js/respond.min.js"> </script>
 
 <!--Sticky Navgiation-->
 <script type="text/javascript">
- $(document).foundation();
 $(document).ready(function() {  
 var stickyNavTop = $('.navbar').offset().top;  
 	  
@@ -57,6 +57,7 @@ var stickyNavTop = $('.navbar').offset().top;
 
 <body>
 <div class="header">
+<div class="row clearfix"> 
 	<div class="quicklinks">
     <ul>
    	<li> <a href="#"> Hello </a></li>
@@ -64,7 +65,7 @@ var stickyNavTop = $('.navbar').offset().top;
   </ul>
     </div>
 	<div class="logo">
-	<a href="#index"> <img src="img/Breaking_Bad_logo.png"/></a>
+	<a href="#index"> <img src="img/logo.png"/></a>
     </div>
 	<div class="navbar">
     <div class="nav-bar">
@@ -84,11 +85,11 @@ var stickyNavTop = $('.navbar').offset().top;
 </div> <!--end of cssmeu-->
 	</div> <!--end of row-->
     </div><!--end of navbar-->
-
+</div> <!--end of gridContainer clearfix-->
 </div> <!--end of header-->
-<div class="container"> 
+<div class=" container  row clearfix"> 
 	<div class="pageheader">
-		<h1 class="pagetitle">  </h1>
+		<h1 class="pagetitle"> Breaking SkyBlue </h1>
 	</div>
 
 <div class="row">
@@ -98,15 +99,15 @@ var stickyNavTop = $('.navbar').offset().top;
              
     <ul class="example-orbit" data-orbit>
       <li>
-        <img src="http://placehold.it/1000x300/A92B48/fff" alt="slide 1" />
+        <img src="http://placehold.it/975x300/A92B48/fff" alt="slide 1" />
         <div class="orbit-caption"> Caption One. </div> 
       </li> 
       <li>
-        <img src="http://placehold.it/1000x300/EE964D/fff" alt="slide 2" /> 
+        <img src="http://placehold.it/975x300/EE964D/fff" alt="slide 2" /> 
         <div class="orbit-caption"> Caption Two. </div> 
       </li>
       <li> 
-        <img src="http://placehold.it/1000x300/FDC43D/fff" alt="slide 3" /> 
+        <img src="http://placehold.it/975x300/FDC43D/fff" alt="slide 3" /> 
         <div class="orbit-caption"> Caption Three. </div> 
       </li>
     </ul>
@@ -120,27 +121,51 @@ var stickyNavTop = $('.navbar').offset().top;
      <div class="row">
      <!--Join the Conversion-->
       <div class="small-2 large-4 columns"> 
+       <h3> Join in the Conversion</h3>
        <div class="panel">
-      <h3> Join in the Conversion</h3>
+     
       <p> 
       a
       </p>
       
-      </div> <!--./end of conversation-->
+      </div> <!--./end of panel-->
       </div> <!---./end of Join the Conversation-->
    
-      <div class="divider" > </div> <!--end of divider-->
+      
       
       <div class="small-4 large-4 columns">
       <h3> Featured Article</h3>
-       </div>
+      	<div class="panel">
+        a
+        </div> <!--end of panel-->
+       </div> <!--end of Featured Article-->
+       
       <div class="small-6 large-4 columns"> 
       	<h3> Galleries </h3>
-      </div>
+              <div class="panel">
+    
+          <p> 
+          a
+          </p>
+          <hr class="line"/>
+      	      
+          <p> hi</p>
+      </div> <!--./end of panel-->
+      </div> <!--end of Featured Article-->
     </div><!--./end of row-->
     </div> <!--end of content1-->
       
 </div> <!---./end of container -->
+
+
+<footer class="row">
+	<div class="footerItems">
+    	<p class="credits"> Tiffany Tse, Vivian D. Wang, and Jenny Yang Copyright &copy; Winter 2014 </p>
+        <p> Bottom Navigation: <a href="#"> Home </a> || <a href="#"> Seasons &amp; Episodes </a> || <a href="#"> Media</a> ||
+        	<a href="#"> Community</a> || <a href="#"> About </a>
+         </p>
+    </div>
+</footer>
 
     <!--Backstretch background-->
 
@@ -150,8 +175,8 @@ var stickyNavTop = $('.navbar').offset().top;
     </script>
 
 <!-- foundation js files-->
- <script src="js/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-<script> $(document).foundation(); </script>
+ <script type="text/javascript"src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/foundation.min.js"></script>
+<script> $(document).foundation(); </script> <!--foundation doc prep-->
 </body>
 </html>
