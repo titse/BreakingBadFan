@@ -9,12 +9,17 @@
 	 margin: 20px auto;
 	
 }
-
-body {
-		min-height: 1100px;
-
+/*body2 is for long pages with content */
+.body2{
+	min-height: 2000px;	
 	
 }
+/* body is for homepage*/
+body {
+		min-height: 1100px;	
+}
+
+
 .header{
 	padding-top:20px	
 }
@@ -122,4 +127,19 @@ footer{
 	font-size:16px;
 	font-weight:800;
 		
+}
+/* seasons and media */
+.epList{
+	margin-right: 20px;
+	padding-bottom:20px;
+	padding-right:20px;	
+}
+
+/* media*/
+
+.pictures{
+	margin-left:20px;	
+}
+.videos{
+	margin-left:20px;	
 }

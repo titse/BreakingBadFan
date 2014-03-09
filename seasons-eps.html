@@ -55,7 +55,7 @@ var stickyNavTop = $('.navbar').offset().top;
 <title>Breaking Bad</title>
 </head>
 
-<body>
+<body class="body2">
 <div class="header">
 <div class="row clearfix"> 
 	<div class="quicklinks">
@@ -90,14 +90,15 @@ var stickyNavTop = $('.navbar').offset().top;
 
 <div class=" container  row clearfix"> 
 	<div class="pageheader">
-		<h1 class="pagetitle"> Breaking SkyBlue </h1>
-              <ul class="breadcrumbs">
+
+		<h1 class="pagetitle"> Seasons and Epsiodes </h1>
+      <ul class="breadcrumbs">
     	<li> <a href="index.html"> Home</a></li>
         <li class="current"><a href="#"> Seasons and Episodes </a> </li>
     </ul> <!--end of breadcrumbs-->
 	</div>
     
-   <div class="row">
+   <div class="row ">
 <div class="large-10" role="content">
 	<div class="imageSlider"> 
 		
@@ -126,27 +127,55 @@ var stickyNavTop = $('.navbar').offset().top;
       
       <!-- Main Page Content and Sidebar -->
 
-  <div class="row">
+  <div class="row text-algin">
 
     <!-- Main Blog Content -->
     <div class="large-9 columns" role="content">
-		<!--pictures-->
-        
-     <div class="row">
-      <div class="small-2 large-4 columns">...</div>
-      <div class="small-4 large-4 columns">...</div>
-      <div class="small-6 large-4 columns">...</div>
-    </div> <!--end of pictures-->
-  
-  	<!--videos-->
-    	<div class="row">
-  <div class="small-2 large-4 columns">...</div>
-  <div class="small-4 large-4 columns">...</div>
-  <div class="small-6 large-4 columns">...</div>
-</div>
-    
-    <!--end of videos-->
-  
+
+      <article>
+
+        <h3><a href="http://foundation.zurb.com/templates/blog.html#">Blog Post Title</a></h3>
+        <h6>Written by <a href="http://foundation.zurb.com/templates/blog.html#">John Smith</a> on August 12, 2012.</h6>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+          </div>
+          <div class="large-6 columns">
+            <img src="http://placehold.it/400x240/A92B48/fff">
+          </div>
+        </div>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+      </article>
+
+      <hr>
+
+      <article>
+
+        <h3><a href="http://foundation.zurb.com/templates/blog.html#">Blog Post Title</a></h3>
+        <h6>Written by <a href="http://foundation.zurb.com/templates/blog.html#">John Smith</a> on August 12, 2012.</h6>
+
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+          </div>
+          <div class="large-6 columns">
+            <img src="http://placehold.it/400x240/229276/fff">
+          </div>
+        </div>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+
+      </article>
+
     </div>
 
     <!-- End Main Content -->
@@ -164,7 +193,30 @@ var stickyNavTop = $('.navbar').offset().top;
         <li><a href="http://foundation.zurb.com/templates/blog.html#">Fun</a></li>
         <li><a href="http://foundation.zurb.com/templates/blog.html#">Weasels</a></li>
       </ul>
-
+<div  class="epList">
+    <dl class="accordion " data-accordion>
+      <dd>
+        <a href="#panel1">Accordion 1</a>
+        <div id="panel1" class="content active">
+      
+			<a href="#" >d </a> 
+         
+		</div>
+      </dd> <!--end of panel1 cotent-->
+      <dd> <!--end of section1-->
+        <a href="#panel2">Accordion 2</a>
+        <div id="panel2" class="content">
+          Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </dd>
+      <dd>
+        <a href="#panel3">Accordion 3</a>
+        <div id="panel3" class="content">
+          Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </dd>
+    </dl> <!--end of accordion-->
+</div> <!--end of epList-->
       <div class="panel">
         <h5>Featured</h5>
         <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
