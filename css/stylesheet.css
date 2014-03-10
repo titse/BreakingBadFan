@@ -76,7 +76,7 @@ body {
 @import url(http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic);
 
 .pageheader{
-	margin: 20px 50px 50px 50px;	
+	margin: 25px 20px 25px 10px;	
 }
 .pagetitle{
  font-family:'Nobile', Verdana, Geneva, sans-serif
@@ -142,4 +142,7 @@ footer{
 }
 .videos{
 	margin-left:20px;	
+}
+.paragraph{
+	margin-right: 50px;	
 }
