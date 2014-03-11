@@ -59,15 +59,31 @@ body {
 	top: 45px;
 	z-index: 1;
 }
+.navbarside{
+	padding-top: 200px;	
+	width:auto;
+	position: fixed;
+	top: 200px;
+	z-index: 2;
+}
+
+.navbarside li
+{
+display:block;
+float:none;
+}
+
 .sticky{
 
-  position:fixed;
+  position: fixed;
   background: #74805f;
   top:0;
-  right:0;
-  left:0;
   z-index:99;	
+  border-top: 0; 
+  width:1000px;
+
 }
+
 
 .logo{
 	margin-left:5px;	

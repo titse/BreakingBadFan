@@ -13,7 +13,7 @@ content="text/html; charset=UTF-8" />
 <link type="text/css" rel="stylesheet" href="css/container.css" />
 <link type="text/css" rel="stylesheet" href="css/boilerplate.css" />
 <link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-styles.css" />
-
+<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-side-styles.css" />
 <!---slider part--->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
@@ -88,6 +88,45 @@ var stickyNavTop = $('.navbar').offset().top;
 </div> <!--end of gridContainer clearfix-->
 </div> <!--end of header-->
 
+<!--sidenav thing-->
+<div class="navbarside">
+    <div class="navbarside">
+	<div>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li><a href='#'><span>Seasons & Episodes</span></a></li>
+   <li><a href='#'><span>Media</span></a></li>
+   <li><a href='#'><span>Community</span></a></li>
+   <li><a href='#'><span>News & Events</span></a></li>
+   <li class='last'><a href='#'><span>About</span></a></li>
+</ul>
+
+</div> <!--end of cssmeu-->
+	</div> <!--end of row-->
+    </div><!--end of navbarside-->
+	
+	<!--side navbar-->
+<script type="text/javascript">
+$(document).ready(function() {  
+var stickyNavTop = $('.navbarside').offset().top;  
+	  
+	var stickyNav = function(){  
+	var scrollTop = $(window).scrollTop();  
+		   
+	if (scrollTop > stickyNavTop) {   
+			$('.navbarside').addClass('sticky');  
+		} else {  
+			$('.navbarside').removeClass('sticky');   
+		}  
+	};  
+  
+	stickyNav();  
+	  
+	$(window).scroll(function() {  
+		stickyNav();  
+	});  
+	}); 
+</script>
 <div class=" container  row clearfix"> 
 	<div class="pageheader">
 
@@ -197,7 +236,7 @@ var stickyNavTop = $('.navbar').offset().top;
     <dl class="accordion " data-accordion>
       <dd>
         <a href="#panel1">Accordion 1</a>
-        <div id="panel1" class="content active">
+        <div id="panel1" class="content">
       
 			<a href="#" >d </a> 
          
