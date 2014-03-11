@@ -12,7 +12,7 @@ content="text/html; charset=UTF-8" />
 <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
 
 <link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-styles.css" />
-
+<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-side-styles.css" />
 <!---slider part--->
 <!--js files-->
 <script src="js/vendor/modernizr.js"></script>
@@ -30,7 +30,9 @@ content="text/html; charset=UTF-8" />
 
 
 
+
 <!--Sticky Navgiation-->
+<!--top navbar-->
 <script type="text/javascript">
 $(document).ready(function() {  
 var stickyNavTop = $('.navbar').offset().top;  
@@ -53,6 +55,7 @@ var stickyNavTop = $('.navbar').offset().top;
 	});  
 
 </script>
+
 <script type="text/javascript">
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
@@ -94,6 +97,46 @@ var stickyNavTop = $('.navbar').offset().top;
     </div><!--end of navbar-->
 </div> <!--end of row -->
 </div> <!--end of header-->
+
+<!--sidenav thing-->
+<div class="navbarside">
+    <div class="navbarside">
+	<div>
+<ul>
+   <li class='active'><a href='index.html'><span>Home</span></a></li>
+   <li><a href='#'><span>Seasons & Episodes</span></a></li>
+   <li><a href='#'><span>Media</span></a></li>
+   <li><a href='#'><span>Community</span></a></li>
+   <li><a href='#'><span>News & Events</span></a></li>
+   <li class='last'><a href='#'><span>About</span></a></li>
+</ul>
+
+</div> <!--end of cssmeu-->
+	</div> <!--end of row-->
+    </div><!--end of navbarside-->
+	
+	<!--side navbar-->
+<script type="text/javascript">
+$(document).ready(function() {  
+var stickyNavTop = $('.navbarside').offset().top;  
+	  
+	var stickyNav = function(){  
+	var scrollTop = $(window).scrollTop();  
+		   
+	if (scrollTop > stickyNavTop) {   
+			$('.navbarside').addClass('sticky');  
+		} else {  
+			$('.navbarside').removeClass('sticky');   
+		}  
+	};  
+  
+	stickyNav();  
+	  
+	$(window).scroll(function() {  
+		stickyNav();  
+	});  
+	}); 
+</script>
 
 <div class=" container row"> 
 	<div class="pageheader">
