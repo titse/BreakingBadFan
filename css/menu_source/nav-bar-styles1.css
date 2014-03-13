@@ -108,6 +108,7 @@
   left: -9999px;
   top: 70px;
   opacity: 0;
+    padding-left: 0;
   -webkit-transition: opacity .3s ease, top .25s ease;
   -moz-transition: opacity .3s ease, top .25s ease;
   -ms-transition: opacity .3s ease, top .25s ease;
