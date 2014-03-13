@@ -10,10 +10,9 @@ content="text/html; charset=UTF-8" />
 <link type="text/css" rel="stylesheet" href="css/foundation.min.css" />
 <link type="text/css" rel="stylesheet" href="css/normalize.css" />
 <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
-<link type="text/css" rel="stylesheet" href="css/container.css" />
-<link type="text/css" rel="stylesheet" href="css/boilerplate.css" />
-<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-styles.css" />
 
+<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-styles.css" />
+<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-side-styles.css" />
 <!-- google fonts-->
 <link href='http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic' rel='stylesheet' type='text/css' />
 
@@ -70,7 +69,11 @@ var stickyNavTop = $('.navbar').offset().top;
 <ul>
    <li ><a href='index.html'><span>Home</span></a></li>
    <li><a href='#'><span>Episode Guides</span></a></li>
+<<<<<<< HEAD
    <li class='active'><a href='cast-crew.html'><span>Cast and Crew</span></a></li>
+=======
+   <li ><a href='#'><span>Characters and Cast</span></a></li>
+>>>>>>> a788e6b7843ba4ff75489f8a8e19b3c0ede9ea11
    <li ><a href='#'><span> Fun Facts</span></a></li>
    <li class='last'><a href='#'><span>Soical Media</span></a></li>
 
@@ -83,6 +86,44 @@ var stickyNavTop = $('.navbar').offset().top;
     </div><!--end of navbar-->
 </div> <!--end of gridContainer clearfix-->
 </div> <!--end of header-->
+
+
+<!--sidenav thing-->
+<div class="navbarside">
+<ul>
+   <li class='active'><a href='index.html'><span>Walter White</span></a></li>
+   <li><a href='#'><span>Jesse Pinkman</span></a></li>
+   <li><a href='#'><span>Media</span></a></li>
+   <li><a href='#'><span>Community</span></a></li>
+   <li><a href='#'><span>News & Events</span></a></li>
+   <li class='last'><a href='#'><span>About</span></a></li>
+</ul>
+	</div> <!--end of row-->
+   
+	<!--side navbar-->
+<script type="text/javascript">
+$(document).ready(function() {  
+var stickyNavTop = $('.navbarside').offset().top;  
+	  
+	var stickyNav = function(){  
+	var scrollTop = $(window).scrollTop();  
+		   
+	if (scrollTop > stickyNavTop) {   
+			$('.navbarside').addClass('sticky');  
+		} else {  
+			$('.navbarside').removeClass('sticky');   
+		}  
+	};  
+  
+	stickyNav();  
+	  
+	$(window).scroll(function() {  
+		stickyNav();  
+	});  
+	}); 
+</script>
+
+
 
 <div class=" container  row clearfix"> 
 	<div class="pageheader">
@@ -131,9 +172,6 @@ var stickyNavTop = $('.navbar').offset().top;
 
 	<div class="footerItems">
     	<p class="credits"> Tiffany Tse, Vivian D. Wang, and Jenny Yang Copyright &copy; Winter 2014 </p>
-        <p> Bottom Navigation: <a href="#"> Home </a> || <a href="#"> Seasons &amp; Episodes </a> || <a href="#"> Media</a> ||
-        	<a href="#"> Community</a> || <a href="#"> About </a>
-         </p>
     </div> <!--end of footerItems-->
 
 </footer>

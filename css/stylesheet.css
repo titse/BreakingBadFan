@@ -59,15 +59,31 @@ body {
 	top: 45px;
 	z-index: 1;
 }
+.navbarside{
+	padding-top: 200px;	
+	width:auto;
+	position: fixed;
+	top: 200px;
+	z-index: 2;
+}
+
+.navbarside li
+{
+display:block;
+float:none;
+}
+
 .sticky{
 
-  position:fixed;
+  position: fixed;
   background: #74805f;
   top:0;
-  right:0;
-  left:0;
   z-index:99;	
+  border-top: 0; 
+  width:1000px;
+
 }
+
 
 .logo{
 	margin-left:5px;	
@@ -96,7 +112,6 @@ body {
 
 }
 
-	
 
 
 /* homepage image slider*/
@@ -106,6 +121,17 @@ body {
 	height:300px;
 	width:975px;	
 }
+
+/* episode image slider*/
+.imageSlider2{
+    padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 35px;
+	height:550px;
+	width:975px;
+	overflow: hidden;	
+}
+
 
 /* footer */
 footer{
@@ -122,6 +148,7 @@ footer{
 .footerItems{
 	font-size:14px;
 	font:Verdana, Geneva, sans-serif;
+	color: black;
 }
 .credits{
 	font-size:16px;
