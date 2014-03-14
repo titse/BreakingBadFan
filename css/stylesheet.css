@@ -12,8 +12,13 @@
 }
 /*body2 is for long pages with content */
 .body2{
-	min-height: 2000px;	
+	min-height: 1700px;	
 	
+}
+
+/*extra long content */
+.body3 {
+	min-height: 2100px;
 }
 /* body is for homepage*/
 body {
@@ -117,7 +122,6 @@ float:none;
 }
 
 
-
 /* homepage image slider*/
 .imageSlider{
     padding-left: 35px;
@@ -135,6 +139,7 @@ float:none;
 	width:975px;
 	overflow: hidden;	
 }
+
 
 
 /* footer */
@@ -162,6 +167,7 @@ footer{
 /* seasons and media */
 .epList{
 	margin-right: 20px;
+	margin-bottom: 200px;
 	padding-bottom:20px;
 	padding-right:20px;	
 }
@@ -176,4 +182,16 @@ footer{
 }
 .paragraph{
 	margin-right: 50px;	
+}
+
+#trivia {
+	padding-top: 130px;
+}
+
+#quizzes {
+	padding-top: 100px;
+}
+
+#memes {
+	padding-top: 100px;
 }
