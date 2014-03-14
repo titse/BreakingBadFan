@@ -81,7 +81,7 @@ body {
 display:block;
 float:none;
 }
-
+/*this add to be a sticky nav */
 .sticky{
 
   position: fixed;
@@ -126,7 +126,7 @@ float:none;
 .imageSlider{
     padding-left: 35px;
 	padding-right: 35px;
-	height:550px;
+	height:350px;
 	width:975px;	
 }
 
