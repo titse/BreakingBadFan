@@ -64,23 +64,7 @@ body {
 	top: 45px;
 	z-index: 1;
 }
-.navbar1{
-    margin-right:50px;
-    margin-left:50px;
-}
-.navbarside{
-	padding-top: 200px;	
-	width:auto;
-	position: fixed;
-	top: 200px;
-	z-index: 2;
-}
 
-.navbarside li
-{
-display:block;
-float:none;
-}
 /*this add to be a sticky nav */
 .sticky{
 
