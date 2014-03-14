@@ -11,8 +11,8 @@ content="text/html; charset=UTF-8" />
 <link type="text/css" rel="stylesheet" href="css/normalize.css" />
 <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
 
-<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-styles.css" />
-<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-side-styles.css" />
+<link type="text/css" rel="stylesheet" href="css/menu_source/nav-bar-styles1.css" />
+
 <!-- google fonts-->
 <link href='http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic' rel='stylesheet' type='text/css' />
 
@@ -61,67 +61,76 @@ var stickyNavTop = $('.navbar').offset().top;
   </ul>
     </div>
 	<div class="logo">
-	<a href="#index"> <img src="img/Breaking_Bad_logo.png" alt="Logo for Website"/></a>
+	<a href="#index"> <img src="img/logo.png" alt="Logo for Website"/></a>
     </div>
-	<div class="navbar">
-    <div class="nav-bar">
-	<div id='cssmenu'>
-<ul>
-   <li ><a href='index.html'><span>Home</span></a></li>
-   <li><a href='#'><span>Episode Guides</span></a></li>
-<<<<<<< HEAD
-   <li class='active'><a href='cast-crew.html'><span>Cast and Crew</span></a></li>
-=======
-   <li ><a href='#'><span>Characters and Cast</span></a></li>
->>>>>>> a788e6b7843ba4ff75489f8a8e19b3c0ede9ea11
-   <li ><a href='#'><span> Fun Facts</span></a></li>
-   <li class='last'><a href='#'><span>Soical Media</span></a></li>
+  <div class="navbar">
+    <div class="large-12" >
+        <div class="nav-bar1 row">
+            <div id='cssmenu'>
+                <ul>
+                   <li class="active"><a href='index.html'><span>Home</span></a></li>
+                   <li><a href="#"><span>Episode Guides</span></a>
+    
+                      <ul>
+                         <li class="has-sub"><a href="#"><span>Season One</span></a>
+                            <ul>
+                               <li><a href="#"><span>Pilot</span></a></li>
+                               <li><a href="#"><span>Cat's in the Bag</span></a></li>
+                               <li><a href="#"><span>...and the Bag's in the River</span></a></li>
+                               <li><a href="#"><span>Cancer Man</span></a></li>
+                               <li><a href="#"><span>Grey Matter</span></a></li>
+                               <li><a href="#"><span>Crazy Handful of Nothin</span></a></li>
+                               <li class="last"><a href="#"><span>A No-Rough-Stuff-Type Deal</span></a></li>
+                            </ul>
+                         </li>
+                         <li class="has-sub"><a href="#"><span>Season Two</span></a>
+                            <ul>
+                               <li><a href="#"><span>Sub Item</span></a></li>
+                               <li class="last"><a href="#"><span>Sub Item</span></a></li>
+                            </ul>
+                         </li>
+                        <li class="has-sub"><a href="#"><span>Season Three</span></a>
+                            <ul>
+                               <li><a href="#"><span>Sub Item</span></a></li>
+                               <li class="last"><a href="#"><span>Sub Item</span></a></li>
+                            </ul>
+                         </li>
+                        <li class="has-sub"><a href="#"><span>Season Four</span></a>
+                            <ul>
+                               <li><a href="#"><span>Sub rItem</span></a></li>
+                               <li class="last"><a href="#"><span>Sub Item</span></a></li>
+                            </ul>
+                         </li>
+                        <li class="has-sub"><a href="#"><span>Season Five</span></a>
+                            <ul>
+                               <li><a href="#"><span>Sub Item</span></a></li>
+                               <li class="last"><a href="#"><span>Sub Item</span></a></li>
+                            </ul>
+                         </li>
+                      </ul>
+                   
+                   
+                   </li>
+                   <li ><a href="#"><span>Cast and Characters</span></a></li>
+                   <li ><a href="#"><span> Fun Facts</span></a>
+                    <ul>
+                      <li class="last"><a href="#trivia"><span>Trivia &amp;</span></a></li>
+                        <li class="last"><a href="#quizzes"><span>Quizzes</span></a></li>
+                          <li class="last"><a href="#memes"><span>Memes</span></a></li>
+                    </ul>
+                </li>
+                <li class="last"><a href="#"><span>Social Media</span></a></li>
+                  
+            </ul>
 
-  
-</ul>
 
+            </div> <!--end of cssmeu-->
+        </div> <!--end of row-->
+    </div>   <!--end of large-12-->
+  </div><!--end of navbar-->
 
-</div> <!--end of cssmeu-->
-	</div> <!--end of row-->
-    </div><!--end of navbar-->
-</div> <!--end of gridContainer clearfix-->
 </div> <!--end of header-->
 
-
-<!--sidenav thing-->
-<div class="navbarside">
-<ul>
-   <li class='active'><a href='index.html'><span>Walter White</span></a></li>
-   <li><a href='#'><span>Jesse Pinkman</span></a></li>
-   <li><a href='#'><span>Media</span></a></li>
-   <li><a href='#'><span>Community</span></a></li>
-   <li><a href='#'><span>News & Events</span></a></li>
-   <li class='last'><a href='#'><span>About</span></a></li>
-</ul>
-	</div> <!--end of row-->
-   
-	<!--side navbar-->
-<script type="text/javascript">
-$(document).ready(function() {  
-var stickyNavTop = $('.navbarside').offset().top;  
-	  
-	var stickyNav = function(){  
-	var scrollTop = $(window).scrollTop();  
-		   
-	if (scrollTop > stickyNavTop) {   
-			$('.navbarside').addClass('sticky');  
-		} else {  
-			$('.navbarside').removeClass('sticky');   
-		}  
-	};  
-  
-	stickyNav();  
-	  
-	$(window).scroll(function() {  
-		stickyNav();  
-	});  
-	}); 
-</script>
 
 
 
