@@ -22,13 +22,14 @@
 }
 /* body is for homepage*/
 body {
-		min-height: 1100px;	
+		min-height: 900px;	
 }
 
 
 .header{
 	padding-top:20px	
 }
+/* quick links for part1 stuff */
 .quicklinks{
 	float:right;
 	margin-top:0px;
@@ -84,6 +85,7 @@ body {
 
 @import url(http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic);
 
+/* title of the page*/
 .pageheader{
 	margin: 25px 20px 25px 10px;	
 }
@@ -98,13 +100,6 @@ body {
 	
 		
 }
-.line{
-    border: 0;
-    border-bottom: 1px dashed #ccc;
-    background: #999;
-
-}
-
 
 /* homepage image slider*/
 .imageSlider{
