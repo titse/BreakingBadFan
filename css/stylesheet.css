@@ -22,13 +22,14 @@
 }
 /* body is for homepage*/
 body {
-		min-height: 1100px;	
+		min-height: 900px;	
 }
 
 
 .header{
 	padding-top:20px	
 }
+/* quick links for part1 stuff */
 .quicklinks{
 	float:right;
 	margin-top:0px;
@@ -64,23 +65,7 @@ body {
 	top: 45px;
 	z-index: 1;
 }
-.navbar1{
-    margin-right:50px;
-    margin-left:50px;
-}
-.navbarside{
-	padding-top: 200px;	
-	width:auto;
-	position: fixed;
-	top: 200px;
-	z-index: 2;
-}
 
-.navbarside li
-{
-display:block;
-float:none;
-}
 /*this add to be a sticky nav */
 .sticky{
 
@@ -100,6 +85,7 @@ float:none;
 
 @import url(http://fonts.googleapis.com/css?family=Nobile:400,700italic,700,400italic);
 
+/* title of the page*/
 .pageheader{
 	margin: 25px 20px 25px 10px;	
 }
@@ -114,13 +100,6 @@ float:none;
 	
 		
 }
-.line{
-    border: 0;
-    border-bottom: 1px dashed #ccc;
-    background: #999;
-
-}
-
 
 /* homepage image slider*/
 .imageSlider{
