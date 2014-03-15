@@ -8,6 +8,6 @@ Idea for this website is to collect all the information into one website about t
 
 Layout by Tiffany Tse ©  Copyright March (Winter Quarter) 2014 
 
-Content by Vivian D. Wang Zhou(Jenny) Wang 
+Content by Vivian D. Wang Zhou(Jenny) Wang (C) Copyright March 2014
 
 Group 16A IA/TA: Chris Kweon 
