@@ -29,34 +29,7 @@ body {
 .header{
 	padding-top:20px	
 }
-/* quick links for part1 stuff */
-.quicklinks{
-	float:right;
-	margin-top:0px;
-	padding-bottom:10px;
-	padding-left:100px;
-}
-.quicklinks ul{
-	list-style: none; 
-	  margin: 0;
-  padding: 0;
-  line-height: 1;
-  display: block;
-  zoom: 1;	
-}
-.quicklinks ul:after {
-  content: ' ';
-  display: block;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-.quicklinks ul li {
-  float: left;
-  display: block;
-  padding: 20px;
-}
+
 /* navbar and ssearch*/
 .navbar{
 	padding-top: 15px;	
@@ -139,6 +112,7 @@ footer{
 	color: black;
 }
 .credits{
+    padding-top: 35px;
 	font-size:16px;
 	font-weight:800;
 		
