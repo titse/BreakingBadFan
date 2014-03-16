@@ -125,14 +125,19 @@ footer{
 
 }
 .footer-links a:active{
-    color:white
+    color:purple;
 
 }
 
-.footer-link a:hover{
+.footer-links a:hover{
 
     color: black; 
     text-decoration: underline;
+}
+.footer-links a:visited{
+    color: white;
+    text-decoration: none;
+
 }
 .credits{
   
