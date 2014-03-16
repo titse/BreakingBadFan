@@ -18,7 +18,7 @@
 
 /*extra long content */
 .body3 {
-	min-height: 2100px;
+	min-height: 2300px;
 }
 /* body is for homepage*/
 body {
@@ -138,11 +138,19 @@ footer{
 }
 
 #trivia {
-	padding-top: 110px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 20px;
 	list-style: none;
-	line-height:200%
+	line-height:200%;
+}
+p#trivia {
+	line-height: 25%;
+}
+
+#tdescription {
+	padding: 50px;
+	font-size:xx-large;
 }
 
 #quizzes {
@@ -158,7 +166,7 @@ footer{
 	padding-bottom: 50px;
 	padding-left: 20px;
 	list-style: none;
-	line-height:200%
+	line-height:200%;
 }
 
 #tpic {
