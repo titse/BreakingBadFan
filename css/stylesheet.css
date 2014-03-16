@@ -103,7 +103,7 @@ body {
 footer{
 	background-color: #5E90A4;
 	display:block;	
-    height: 100px;
+    height: 200px;
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -113,28 +113,29 @@ footer{
 
 }
 
-.footer{
-	background-color: #5E90A4;
-	display:block;	
-    height: 100px;
-	text-align: center;
-	width: 100%;
-	margin: 50% auto;
-	position: relative;
-	bottom: 0;
 
-}
 .footerItems{
 	font-size:14px;
 	font:Verdana, Geneva, sans-serif;
 	color: black;
+    padding-bottom: 150px;
 }
-.footer{
-    padding-bottom: 50px;
+.footer-links a:link{
+    color:white;
 
 }
+.footer-links a:active{
+    color:white
+
+}
+
+.footer-link a:hover{
+
+    color: black; 
+    text-decoration: underline;
+}
 .credits{
-    padding-top: 35px;
+  
 	font-size:16px;
 	font-weight:800;
 		
