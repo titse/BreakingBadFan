@@ -156,13 +156,33 @@ footer{
 }
 
 #trivia {
-	padding-top: 130px;
+	padding-top: 110px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	list-style: none;
+	line-height:200%
 }
 
 #quizzes {
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	list-style: none;
+	line-height:200%
 }
 
 #memes {
-	padding-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	list-style: none;
+	line-height:200%
+}
+
+#tpic {
+	padding-top: 10px;
+	list-style: none;
+	font-style:italic;
+	text-align:center;
+	font-size:large;
 }
